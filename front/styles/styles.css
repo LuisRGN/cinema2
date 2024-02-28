@@ -1,0 +1,201 @@
+body {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-negro-humo-difuminado_23-2147611846.jpg?w=360&t=st=1707194977~exp=1707195577~hmac=f6fda577e5bdb4ca614703ac04cf203e3a5240f975f12b6906a4097dbafa3493");
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-image: url("https://previews.123rf.com/images/kesu87/kesu871703/kesu87170300285/74656888-concepto-de-cine-de-carretes-de-pel%C3%ADcula-vintage-clapperboard-y-proyector-sobre-fondo-de-madera.jpg");
+    padding: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+
+}
+
+nav,
+.titulos {
+    justify-content: center;
+
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(126, 92, 40);
+    border: rgb(248, 248, 248) groove 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-primary {
+    background-color: rgb(126, 92, 40);
+    border: rgb(248, 248, 248) groove 0.1rem;
+    border-radius: 0.5rem;
+    color: white !important;
+}
+
+.modal-content {
+    padding: 1.6rem;
+    font-size: 1.7rem;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    border: groove white;
+}
+
+.contentParrafo {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+
+.parrafo {
+    background-color: rgba(90, 95, 112, 0.567);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    max-width: 70rem;
+}
+
+a {
+    background-color: rgb(126, 92, 40);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: rgb(248, 248, 248) groove 0.1rem;
+    max-width: 15rem;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: rgb(230, 126, 126) !important;
+}
+
+.img {
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+
+#allCards {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(90, 95, 112, 0.567);
+    margin: 2rem;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.newImg {
+    border-radius: 0.5rem;
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+h1,
+h2 {
+    color: white;
+    font-size: 3.1rem;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(93, 94, 101, 0.879)
+}
+
+.card p {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+
+}
+
+.bold {
+    font-weight: bold;
+    color: rgb(192, 195, 30);
+}
+
+.error {
+    color: white;
+    font-size: 2rem;
+}
+
+#footer {
+    justify-content: center;
+    margin: 2rem;
+}
+
+#footer span {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: rgba(90, 95, 112, 0.567);
+    color: white;
+}
+
+.form-control,
+.input-group-text {
+    color: white !important;
+    background-color: rgba(66, 66, 66, 0.879) !important;
+    font-size: 1rem;
+
+}
+
+.input-group-text {
+    width: 6rem;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 25rem;
+        text-align: center
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 25rem;
+        text-align: center
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 25rem;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    nav {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .newImg {
+        max-width: 20rem;
+        max-height: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        align-items: center;
+        flex-direction: column;
+    }
+}
