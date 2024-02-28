@@ -1,6 +1,6 @@
-const app = require("./src/server.js");
+const app = require("./server.js");
 const PORT = 3000;
-const dbConfig = require("./src/config/dbConfig.js");
+const dbConfig = require("./config/dbConfig.js");
 
 dbConfig().then((res) => {
     app.listen(PORT, () => {
